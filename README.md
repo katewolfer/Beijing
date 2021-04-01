@@ -12,7 +12,7 @@ Some of the functions include:
 - multivariate statistics: principal components analysis (currently without cross-validation), plus scores and loadings plots  
 - correlation heatmaps per assay and per season  
 
-![heatmap example](https://github.com/katewolfer/Beijing/blob/main/examples/heatmap.pdf)  
+![heatmap example](https://github.com/katewolfer/Beijing/blob/main/examples/seasonal%20heatmap.png)  
 ![loadings example](https://github.com/katewolfer/Beijing/blob/main/examples/PCA%20loadings.png)  
 ![scores example](https://github.com/katewolfer/Beijing/blob/main/examples/PCA%scores.png)  
 
