@@ -13,6 +13,9 @@ Some of the functions include:
 - correlation heatmaps per assay and per season  
 
 ![heatmap example](https://github.com/katewolfer/Beijing/blob/main/examples/heatmap.pdf)  
+![loadings example](https://github.com/katewolfer/Beijing/blob/main/examples/PCA%20loadings.png)  
+![scores example](https://github.com/katewolfer/Beijing/blob/main/examples/PCA%scores.png)  
+
 
 
 If you find any of the code useful or have suggestions for improvement, please let us know!  
