@@ -8,12 +8,16 @@ In the meantime, the code should work with the dummy dataset contained in the pa
 
 Some of the functions include:  
 - univariate statistics: Spearman correlations and p-values, in a handy text output  
+  
 - multivariate statistics: principal components analysis (currently without cross-validation), plus scores and loadings plots  
+  
 ![scores example](https://github.com/katewolfer/Beijing/blob/main/examples/PCA%20scores.png)  
-![loadings example](https://github.com/katewolfer/Beijing/blob/main/examples/PCA%20loadings.png)  
+![loadings example](https://github.com/katewolfer/Beijing/blob/main/examples/PCA%20loadings.png) 
+  
 - correlation heatmaps per assay and per season  
+  
 ![heatmap example](https://github.com/katewolfer/Beijing/blob/main/examples/seasonal%20heatmap.png)  
-
+  
 If you find any of the code useful or have suggestions for improvement, please let us know!  
 
 
