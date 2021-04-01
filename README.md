@@ -1,5 +1,4 @@
-# Beijing data analysis package
-
+# Beijing dataset analysis and visualisations
 This repository holds the functions and data visualisations developed for our ACP paper, implemented in R.  
 
 The functions cover a range of standard univariate and multivariate data analysis, with the data plotting as we used for the paper.
