@@ -11,7 +11,7 @@ If you find any of the code useful or have suggestions for improvement, please l
 
 
 # Paper reference
-## Atmospheric conditions and composition that influence PM2.5 oxidative potential in Beijing, China
-Campbell, Wolfer et al.
-Atmos. Chem. Phys., 21, 1–25, 2021
-https://doi.org/10.5194/acp-21-1-2021
+Atmospheric conditions and composition that influence PM2.5 oxidative potential in Beijing, China  
+Campbell, Wolfer et al.  
+Atmos. Chem. Phys., 21, 1–25, 2021  
+https://doi.org/10.5194/acp-21-1-2021  
