@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/353720036.svg)](https://zenodo.org/badge/latestdoi/353720036)  
+  
 # Beijing dataset analysis and visualisations
 This repository holds the functions and data visualisations developed for our ACP paper, implemented in R.  
 
