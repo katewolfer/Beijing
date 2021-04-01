@@ -12,6 +12,8 @@ Some of the functions include:
 - multivariate statistics: principal components analysis (currently without cross-validation), plus scores and loadings plots  
 - correlation heatmaps per assay and per season  
 
+![heatmap example](https://github.com/katewolfer/Beijing/blob/main/examples/heatmap.pdf)  
+
 
 If you find any of the code useful or have suggestions for improvement, please let us know!  
 
