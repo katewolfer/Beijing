@@ -2,15 +2,16 @@
 # Beijing dataset analysis and visualisations
 This repository holds the functions and data visualisations developed for our ACP paper, implemented in R.  
 
-The functions cover a range of standard univariate and multivariate data analysis, with the data plotting as we used for the paper.
+The functions cover a range of standard univariate and multivariate data analysis, with the data plotting as used for all paper figures.
 
-Most of the functions available here can be used for similar datasets. We will make the package fully generalisable as soon as we can.  
-In the meantime, the code should work with the dummy dataset contained in the package.  
+Most of the functions available here can be used for similar datasets; some hard coding is present, and we will make the package fully generalisable as soon as we can.
+
+Package dependencies can be found [here](https://github.com/katewolfer/Beijing/blob/main/R/beijingPackages.R), our credit and thanks to the authors of these!
 
 Some of the functions include:  
 - univariate statistics: Spearman correlations and p-values, in a handy text output  
   
-- multivariate statistics: principal components analysis (currently without cross-validation), plus scores and loadings plots  
+- multivariate statistics: principal components analysis (currently without cross-validation), plus scores and loadings plots. These plots can also be used for PLSR models, which can be constructed using the [pls](https://cran.r-project.org/web/packages/pls/index.html) package (also in R).  
   
 ![scores example](https://github.com/katewolfer/Beijing/blob/main/examples/PCA%20scores.png)  
 ![loadings example](https://github.com/katewolfer/Beijing/blob/main/examples/PCA%20loadings.png) 
@@ -25,4 +26,4 @@ If you find any of the code useful or have suggestions for improvement, please l
 # Paper reference
 Atmospheric conditions and composition that influence PM2.5 oxidative potential in Beijing, China  
 Campbell, Wolfer et al.  
-Atmos. Chem. Phys., 21, 1–25, 2021  
+Atmos. Chem. Phys., 2021  
