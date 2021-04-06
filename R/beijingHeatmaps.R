@@ -1,9 +1,10 @@
 beijingHeatmaps <- function(df,startCol, assayCols, group){
 
   #############################################
+  ## Beijing, v0.0.1                         ##
   ## Analysis of Beijing campaign total data ##
   ## Kate Wolfer, Universitaet Basel         ##
-  ## March 2021                              ##
+  ## April 2021                              ##
   #############################################
 
   getSeasons <- levels(df$Season)

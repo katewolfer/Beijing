@@ -1,9 +1,10 @@
 plotPCA <- function(df, pc1, pc2, logTr, startCol, colorCol, loadingsCol) {
 
   #############################################
+  ## Beijing, v0.0.1                         ##
   ## Analysis of Beijing campaign total data ##
   ## Kate Wolfer, Universitaet Basel         ##
-  ## March 2021                              ##
+  ## April 2021                              ##
   #############################################
 
   ## simple PCA, produces scores and loadings plots

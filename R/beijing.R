@@ -1,32 +1,23 @@
 #############################################
+## Beijing, v0.0.1                         ##
 ## Analysis of Beijing campaign total data ##
 ## Kate Wolfer, Universitaet Basel         ##
-## March 2021                              ##
+## April 2021                              ##
 #############################################
 
-#######################
-## Required packages ##
-#######################
+#####################################
+## Required packages and functions ##
+#####################################
 
-require(ggplot2)
-require(ggsignif)
-require(reshape2)
-require(psych)
-require(leaps)
-require(gridExtra)
-require(RColorBrewer)
-require(pls)
-require(psych)
-require(ggplot2)
-require(Hotelling)
-require(ggrepel)
-library(grid)
-library(GGally)
+source("beijingPackages.R")
+beijingPackages()
 
 source("beijingCleanup.R")
 source("beijingUnivariateList.R")
 source("plotPCA.R")
 source("beijingHeatmaps.R")
+source("beijingStackedPlot.R")
+
 
 ##################
 ## Data cleanup ##

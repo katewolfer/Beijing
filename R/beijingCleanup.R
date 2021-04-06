@@ -1,9 +1,10 @@
 beijingCleanup <- function(df, startCol){
 
   #############################################
+  ## Beijing, v0.0.1                         ##
   ## Analysis of Beijing campaign total data ##
   ## Kate Wolfer, Universitaet Basel         ##
-  ## March 2021                              ##
+  ## April 2021                              ##
   #############################################
 
   ## Simple data cleanup to fully standardise data

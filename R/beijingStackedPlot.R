@@ -1,9 +1,10 @@
 beijingStackedPlot <- function(dfComp, renameCategories, removeComposites, hazeEvents){
 
   #############################################
+  ## Beijing, v0.0.1                         ##
   ## Analysis of Beijing campaign total data ##
   ## Kate Wolfer, Universitaet Basel         ##
-  ## March 2021                              ##
+  ## April 2021                              ##
   #############################################
 
   library(ggpubr)
