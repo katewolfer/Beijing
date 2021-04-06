@@ -95,17 +95,17 @@ plot(getPCA[[1]])
 plot(getPCA[[2]])
 #plotPCA <- grid.arrange(getPCA[[1]],getPCA[[2]],ncol = 2)
 
-ggsave("PCA loadings.eps",
+ggsave("PCA loadings.png",
        plot = getPCA[[1]],
-       device = "eps",
+       device = "png",
        width = 25,
        height = 19,
        units = "cm",
        dpi = 350)
 
-ggsave("PCA scores.eps",
+ggsave("PCA scores.png",
        plot = getPCA[[2]],
-       device = "eps",
+       device = "png",
        width = 25,
        height = 25,
        units = "cm",
@@ -123,9 +123,9 @@ heatMap <- beijingHeatmaps(df = df,
                            group = categories)
 #plot(heatMap)
 
-ggsave("seasonal heatmap.eps",
+ggsave("seasonal heatmap.png",
        plot = heatMap,
-       device = "eps",
+       device = "png",
        width = 40,
        height = 30,
        units = "cm",
@@ -136,20 +136,26 @@ ggsave("seasonal heatmap.eps",
 ###################
 
 ## required data tidy
-df$`palmitic acid`[47] <- median(df$`palmitic acid`[which(df$Season == "winter")],na.rm = TRUE)
+#df$`palmitic acid`[47] <- median(df$`palmitic acid`[which(df$Season == "winter")],na.rm = TRUE)
 findConcs <- grep("/ug",  saveUnits)
 dfComp <- df[,findConcs]
 renameCategories <- categories[findConcs]
 removeComposites <- c(which(renameCategories == "AMS factors"),69,70)
 hazeEvents <- read.csv("Beijing haze events.csv")
+source("beijingStackedPlot.R")
 
 ## run function
-stackedPlot <- beijingStackedPlot(dfComp,
-                                  categories,
+stackedPlot <- beijingStackedPlot(df = dfComp,
+                                  renameCategories,
                                   removeComposites,
                                   hazeEvents)
 
-## MLR code
+getP <- ggarrange(stackedPlot[[2]], stackedPlot[[1]], ncol=1)
+ggsave("stacked concentration plot.png", plot = getP, width=35, height=35, units="cm", dpi = 500)
+
+##########################################
+## Multiple linear regression modelling ##
+##########################################
 
 summer <- df[which(df$Season == "summer"),]
 winter <- df[which(df$Season == "winter"),]
