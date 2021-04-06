@@ -1,0 +1,108 @@
+measurement,method,vehicle,biomass,coal,cooking,dust,biogenic SOA
+total OC,ICPMS,0,0,0,0,0,0
+total EC,ICPMS,1,1,1,0,0,0
+K_pos,ICPMS,1,1,0,0,1,0
+Na_pos,ICPMS,1,0,0,0,1,0
+Ca2_pos,ICPMS,1,0,0,0,1,0
+NH4_pos,ICPMS,0,0,0,0,0,0
+NO3_neg,ICPMS,1,0,0,0,0,1
+SO42_neg,ICPMS,0,0,1,0,0,1
+Cl_neg,ICPMS,0,0,1,0,1,0
+Al,XRF,1,0,0,0,1,0
+Ti,XRF,1,0,0,0,1,0
+V,XRF,1,0,0,0,0,0
+Cr,XRF,1,0,0,0,0,0
+Mn,XRF,1,0,0,0,1,0
+Fe,XRF,1,0,0,0,1,0
+Co,XRF,1,0,0,0,0,0
+Ni,XRF,1,0,0,0,0,0
+Cu,XRF,1,1,1,0,0,0
+Zn,XRF,1,0,1,0,1,0
+Cd,XRF,1,0,1,0,0,0
+Sb,XRF,1,0,1,0,0,0
+Ba,XRF,1,0,1,0,0,0
+Pb,XRF,1,0,1,0,0,0
+galactosan,biomass burning marker,0,1,0,0,0,0
+mannosan,biomass burning marker,0,1,0,0,0,0
+levoglucosan,biomass burning marker,0,1,0,0,0,0
+ORG,AMS,0,0,0,0,0,0
+MOOOA,AMS,0,0,0,0,0,0
+LOOOA,AMS,0,0,0,0,0,0
+O3,gases/meteorological,1,1,0,0,0,1
+CO.,gases/meteorological,1,1,0,1,0,1
+NO,gases/meteorological,1,0,0,0,0,0
+NO2,gases/meteorological,1,0,0,0,0,0
+NOy,gases/meteorological,1,0,0,0,0,0
+SO2,gases/meteorological,0,0,1,0,0,0
+RH8,gases/meteorological,0,0,0,0,0,0
+RH120,gases/meteorological,0,0,0,0,0,0
+RH240,gases/meteorological,0,0,0,0,0,0
+T8,gases/meteorological,0,0,0,0,0,0
+T120,gases/meteorological,0,0,0,0,0,0
+T240,gases/meteorological,0,0,0,0,0,0
+methanol,PTRMS,0,0,0,0,0,0
+acetonitrile,PTRMS,0,0,0,0,0,0
+acetaldehyde,PTRMS,0,0,0,0,0,0
+acrolein,PTRMS,0,0,0,0,0,0
+acetone,PTRMS,0,0,0,0,0,0
+isoprene,PTRMS,0,0,0,0,0,1
+methyl vinyl ketone or methacrolein,PTRMS,0,0,0,0,0,1
+methyl ethyl ketone,PTRMS,0,0,0,0,0,1
+benzene,PTRMS,1,0,0,0,0,0
+toluene,PTRMS,1,0,0,0,0,0
+C2-benzenes,PTRMS,1,0,0,0,0,0
+C3-benzenes,PTRMS,1,0,0,0,0,0
+JO1D,photolysis,0,0,0,0,0,0
+JNO2,photolysis,0,0,0,0,0,0
+napthalene,PAH,0,0,0,0,0,0
+acenaphthylne,PAH,0,0,0,0,0,0
+acenaphthene,PAH,0,0,0,0,0,0
+fluorene,PAH,0,0,0,0,0,0
+phenanthrene,PAH,0,0,0,0,0,0
+fluoranthene,PAH,0,0,0,0,0,0
+pyrene,PAH,0,0,0,0,0,0
+benzo(a)anthracene,PAH,0,0,0,0,0,0
+chrysene,PAH,0,0,0,0,0,0
+benzo(b)fluoranthene,PAH,0,0,0,0,0,0
+benzo(k)fluoranthene,PAH,0,0,0,0,0,0
+benzo(a)pyrene,PAH,0,0,0,0,0,0
+"indeno(1,2,3-cd)pyrene",PAH,0,0,0,0,0,0
+"dibenzo(a,h)anthracene",PAH,0,0,0,0,0,0
+benzo(ghi)perylene,PAH,0,0,0,0,0,0
+C24,n-alkane,1,0,1,0,0,0
+C25,n-alkane,1,0,1,0,0,0
+C26,n-alkane,1,0,1,0,0,0
+C27,n-alkane,1,0,1,0,0,0
+C28,n-alkane,1,0,1,0,0,0
+C29,n-alkane,1,0,1,0,0,0
+C30,n-alkane,1,0,1,0,0,0
+C31,n-alkane,1,0,1,0,0,0
+C32,n-alkane,1,0,1,0,0,0
+C33,n-alkane,1,0,1,0,0,0
+C34,n-alkane,1,0,1,0,0,0
+OH.,gas-phase radical,0,0,0,0,0,0
+HO2.,gas-phase radical,0,0,0,0,0,0
+RO2.,gas-phase radical,0,0,0,0,0,0
+palmitic acid,cooking,0,0,0,1,0,0
+stearic acid,cooking,0,0,0,1,0,0
+cholesterol,cooking,0,0,0,1,0,0
+"17a(H)-22,29,30-trisnorhopane (C27a)",vehicle exhaust,1,0,0,0,0,0
+"17b(H),21a(H)-norhopane (C30ba)",vehicle exhaust,1,0,0,0,0,0
+2-methylthreitol,isoprene SOA,0,0,0,0,0,1
+2-methylerythritol,isoprene SOA,0,0,0,0,0,1
+2-methylglyceric acid,isoprene SOA,0,0,0,0,0,1
+"cis-2-methyl-1,3,4-trihydroxy-1-butene",C5-alkene triols,0,0,0,0,0,1
+"3-methyl-2,3,4-trihydroxy-1-butene",C5-alkene triols,0,0,0,0,0,1
+"trans-2-methyl-1,3,4-trihydroxy-1-butene",C5-alkene triols,0,0,0,0,0,1
+C5-alkene triols,isoprene tracers,0,0,0,0,0,0
+2-methyltetrols,isoprene tracers,0,0,0,0,0,0
+3-hydroxyglutaric acid,isoprene tracers,0,0,0,0,0,1
+cis-pinonic acid,alpha-pinene SOA,0,0,0,0,0,1
+pinic acid,alpha-pinene SOA,0,0,0,0,0,1
+"3-methyl-1,2,3-butanetricarboxylic acid",alpha-pinene SOA,0,0,0,0,0,1
+beta-caryophyllinic acid,beta-caryophyllene SOA,0,0,0,0,0,1
+glutaric acid derivative,glutaric acid derivative SOA tracer,0,0,0,0,0,0
+3-acetylpentanedioic acid,glutaric acid derivative SOA tracer,0,0,0,0,0,1
+3-acetylhexanedioic acid,glutaric acid derivative SOA tracer,0,0,0,0,0,1
+3-isopropylpentanedioic acid,anthropogenic SOA,0,0,0,0,0,1
+"2,3-dihydroxy-4-oxopentanoic acid",aged a-pinene SOA,0,0,0,0,0,1

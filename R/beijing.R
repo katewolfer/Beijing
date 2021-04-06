@@ -1,5 +1,5 @@
 #############################################
-## Beijing, v0.0.1                         ##
+## Beijing, v0.0.2                         ##
 ## Analysis of Beijing campaign total data ##
 ## Kate Wolfer, Universitaet Basel         ##
 ## April 2021                              ##
