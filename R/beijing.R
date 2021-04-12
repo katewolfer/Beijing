@@ -1,5 +1,5 @@
 #############################################
-## Beijing, v0.0.2                         ##
+## Beijing, v0.1.3                         ##
 ## Analysis of Beijing campaign total data ##
 ## Kate Wolfer, Universitaet Basel         ##
 ## April 2021                              ##
@@ -11,13 +11,6 @@
 
 source("beijingPackages.R")
 beijingPackages()
-
-source("beijingCleanup.R")
-source("beijingUnivariateList.R")
-source("plotPCA.R")
-source("beijingHeatmaps.R")
-source("beijingStackedPlot.R")
-
 
 ##################
 ## Data cleanup ##
@@ -148,9 +141,15 @@ ggsave("stacked concentration plot.png", plot = getP, width=35, height=35, units
 ## Multiple linear regression modelling ##
 ##########################################
 
-summer <- df[which(df$Season == "summer"),]
-winter <- df[which(df$Season == "winter"),]
-summer[is.na(summer)] <- 0
-winter[is.na(winter)] <- 0
+source("beijingMLRmodelling.R")
+## import and select model subsets
 
+## this file is in the example folder - add to your working directory
+sourceModels <- read.csv("Beijing source apportionment inclusion criteria.csv",
+                         check.names = FALSE)
 
+selectSource <- c(3:ncol(sourceModels))
+predictors <- colnames(df)[c(5:8)]
+seasons <- c("winter","summer")
+
+collateModels <- beijingMLRmodelling(sourceModels, selectSource, predictors, seasons)

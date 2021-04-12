@@ -1,11 +1,11 @@
 plotPCA <- function(df, pc1, pc2, logTr, startCol, colorCol, loadingsCol) {
 
-  #############################################
-  ## Beijing, v0.0.2                         ##
-  ## Analysis of Beijing campaign total data ##
-  ## Kate Wolfer, Universitaet Basel         ##
-  ## April 2021                              ##
-  #############################################
+#############################################
+## Beijing, v0.1.3                         ##
+## Analysis of Beijing campaign total data ##
+## Kate Wolfer, Universitaet Basel         ##
+## April 2021                              ##
+#############################################
 
   ## simple PCA, produces scores and loadings plots
   ## R package does not produce Q2 values based on 7-fold model
