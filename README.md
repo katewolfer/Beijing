@@ -19,6 +19,10 @@ Some of the functions include:
 - correlation heatmaps per assay and per season  
   
 ![heatmap example](https://github.com/katewolfer/Beijing/blob/main/examples/seasonal%20heatmap.png)  
+
+- and the MLR optimisation and model visualisations
+
+![MLR example](https://github.com/katewolfer/Beijing/blob/main/examples/vehicle%20AA%20winter%20linear%20regression%20MASS%2C%2028%20Sept%202020.png)
   
 If you find any of the code useful or have suggestions for improvement, please let us know!  
 
@@ -26,4 +30,6 @@ If you find any of the code useful or have suggestions for improvement, please l
 # Paper reference
 Atmospheric conditions and composition that influence PM2.5 oxidative potential in Beijing, China  
 Campbell, Wolfer et al.  
-Atmos. Chem. Phys., 2021  
+Atmos. Chem. Phys., 21, 5549–5573, 2021  
+https://doi.org/10.5194/acp-21-5549-2021  
+https://acp.copernicus.org/articles/21/5549/2021/acp-21-5549-2021.html  
