@@ -1,4 +1,5 @@
-[![DOI](https://zenodo.org/badge/353720036.svg)](https://zenodo.org/badge/latestdoi/353720036)
+[![DOI](https://zenodo.org/badge/353720036.svg)](https://zenodo.org/badge/latestdoi/353720036)  
+
 # Beijing dataset analysis and visualisations
 This repository holds the functions and data visualisations developed for our ACP paper, implemented in R.  
 
@@ -27,9 +28,9 @@ Some of the functions include:
 If you find any of the code useful or have suggestions for improvement, please let us know!  
 
 
-# Paper reference
-Atmospheric conditions and composition that influence PM2.5 oxidative potential in Beijing, China  
-Campbell, Wolfer et al.  
+## Paper reference
+**Atmospheric conditions and composition that influence PM2.5 oxidative potential in Beijing, China**  
+*Campbell, Wolfer et al.*  
 Atmos. Chem. Phys., 21, 5549–5573, 2021  
 https://doi.org/10.5194/acp-21-5549-2021  
 https://acp.copernicus.org/articles/21/5549/2021/acp-21-5549-2021.html  
