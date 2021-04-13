@@ -8,9 +8,9 @@ beijingLRoptimisation <- function(getSeason, selectPredictor, selectSeason,
   ## April 2021                              ##
   #############################################
 
-  ########################
-  ## Linear DCFH models ##
-  ########################
+  ###############################
+  ## Linear model construction ##
+  ###############################
 
   ## subset the data for the selected prdictor and rename columns
   modelSubset <- data.frame(getSeason[,which(colnames(getSeason) == selectPredictor)],
@@ -102,8 +102,11 @@ beijingLRoptimisation <- function(getSeason, selectPredictor, selectSeason,
   getSumm <- summ(realModel,digits = 10)
 
 
-  #################################################################
-  ## once model is optimised
+  #############################
+  ## once model is optimised ##
+  #############################
+  
+  ## collect the model information
   collectEstimate <- getSummary$coefficients[,1]
   getResiduals <- resid(realModel)
   getResiduals <- data.frame(getSeason$Date, getResiduals)
